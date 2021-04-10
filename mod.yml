@@ -1,0 +1,13 @@
+title: KHII Level Up Randomiser
+originalAuthor: Delta-473
+description: Randomises the level up levels. Run the Python script with parameters to randomise it.
+assets:
+  - name: 00battle.bin
+    method: binarc
+    source:
+      - name: lvup
+        type: list
+        method: listpatch
+        source:
+          - name: data/lvlup.yml
+            type: lvup
